@@ -18,6 +18,7 @@ const Header = () => {
             <a href="#">Changelog</a>
             <a href="#">Blog</a>
             <a href="#">Jobs</a>
+            <a href="#">|</a>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"

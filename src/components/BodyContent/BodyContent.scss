@@ -1,0 +1,68 @@
+@import "../../common-scss/variables.scss";
+
+.body-fixed {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  img {
+    width: 50%;
+    padding-top: 80px;
+  }
+
+  svg {
+    position: absolute;
+    mix-blend-mode: overlay;
+  }
+
+  h1 {
+    max-width: 700px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: Min(12vw, 80px);
+    font-style: normal;
+    letter-spacing: 1.2px;
+    line-height: 110%;
+    text-align: center;
+    font-weight: 700;
+
+    em {
+      padding: 0 10px;
+      background: linear-gradient(45deg, #f83a3a 10%, #f13dd4 50%, #7000ff 90%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  p {
+    color: $white-1;
+  }
+
+  button {
+    width: 280px;
+    padding: 12px 40px;
+    border: 3px solid hsla(0, 0%, 100%, 0.3);
+    margin: 16px 0;
+    background-clip: padding-box;
+    background-color: hsla(0, 0%, 100%, 0.9);
+    border-radius: 8px;
+    color: #0d0d0d;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+  }
+
+  .body-info {
+    &_tags {
+      position: relative;
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+      color: hsla(0, 0%, 100%, 0.4);
+      font-size: 13px;
+      line-height: 16px;
+      gap: 6px;
+    }
+  }
+}

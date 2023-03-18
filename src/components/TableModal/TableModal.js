@@ -31,7 +31,10 @@ const TableModal = (props) => {
                 <p>Personal</p>
               </div>
 
-              <div className="modal-drawer_left__element">
+              <div
+                style={{ paddingLeft: "0" }}
+                className="modal-drawer_left__element modal-drawer_left__selection"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -45,6 +48,12 @@ const TableModal = (props) => {
                   />
                 </svg>
                 <p>Work</p>
+              </div>
+
+              <div className="modal-drawer_left__submenu">
+                <p>Dashboard</p>
+                <p>Tools</p>
+                <p>Decks</p>
               </div>
 
               <div className="modal-drawer_left__element">

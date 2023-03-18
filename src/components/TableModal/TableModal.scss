@@ -37,17 +37,18 @@
   &-drawer {
     display: flex;
     justify-content: space-between;
-    padding: 0px 20px;
+    // padding: 0px 20px;
     &_left {
       border-right: 1px solid #eaecf0;
       width: 200px;
-      padding-top: 16px;
+      padding: 16px 16px 0 16px;
       p {
         font-style: normal;
         font-weight: 700;
         font-size: 11px;
         line-height: 13px;
         color: #667085;
+        padding-left: 16px;
       }
       &__element {
         gap: 8px;
@@ -61,11 +62,34 @@
           font-size: 13px;
           line-height: 16px;
           color: #111111;
+          // padding-left: 16px;
         }
 
         svg {
           width: 16px;
           height: 16px;
+          padding-left: 16px;
+        }
+      }
+
+      &__selection {
+        background-color: #eaecf0;
+        padding-left: 16px;
+        border-radius: 8px;
+      }
+
+      &__submenu {
+        padding: 10px 0 0 16px;
+        border-left: 1px solid #eaecf0;
+        margin-left: 16px;
+        p {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 13px;
+          line-height: 16px;
+          color: #111111;
+          padding: 10px 0;
+          // padding-left: 16px;
         }
       }
     }

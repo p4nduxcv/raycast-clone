@@ -117,7 +117,7 @@ const TableModal = (props) => {
               </div>
 
               {/* Height and Scrollable Auto */}
-              <div style={{ height: "50%", overflowY: "scroll" }}>
+              <div style={{ height: "85%", overflowY: "scroll" }}>
                 <div className="modal-drawer_right__element">
                   {" "}
                   <svg
@@ -213,6 +213,7 @@ const TableModal = (props) => {
                     Costs - The New York Times
                   </p>
                 </div>
+
                 <div className="modal-drawer_right__element">
                   {" "}
                   <svg
@@ -237,7 +238,43 @@ const TableModal = (props) => {
           </div>
         </div>
 
-        <div className="footer">SDdsdsdsdsdE</div>
+        <div className="footer">
+          <div className="footer-up">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+            >
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path d="M13 7.828V20h-2V7.828l-5.364 5.364-1.414-1.414L12 4l7.778 7.778-1.414 1.414L13 7.828z" />
+            </svg>
+          </div>
+          <div>
+            <p>Recent Search</p>
+          </div>
+          <div className="footer-cmd">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+            >
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path d="M10 8h4V6.5a3.5 3.5 0 1 1 3.5 3.5H16v4h1.5a3.5 3.5 0 1 1-3.5 3.5V16h-4v1.5A3.5 3.5 0 1 1 6.5 14H8v-4H6.5A3.5 3.5 0 1 1 10 6.5V8zM8 8V6.5A1.5 1.5 0 1 0 6.5 8H8zm0 8H6.5A1.5 1.5 0 1 0 8 17.5V16zm8-8h1.5A1.5 1.5 0 1 0 16 6.5V8zm0 8v1.5a1.5 1.5 0 1 0 1.5-1.5H16zm-6-6v4h4v-4h-4z" />
+            </svg>
+            <p>Cmd</p>
+          </div>
+          <div>
+            <p>+</p>
+          </div>
+          <div className="footer-cmd">
+            <p>1 + 9</p>
+          </div>
+          <div>
+            <p>Quick select space/stack/link</p>
+          </div>
+        </div>
       </div>
     </div>
   );

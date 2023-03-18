@@ -1,0 +1,55 @@
+@import "../../common-scss/variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-fixed {
+  background-color: transparent;
+  padding: 22px;
+  height: 80px;
+  box-sizing: border-box;
+  top: -100px;
+
+  .header {
+    &-limiter {
+      max-width: 1200px;
+      text-align: center;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &-brand {
+      img {
+        width: 109px;
+      }
+    }
+    &-items {
+      nav {
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+      }
+      nav {
+        a {
+          display: inline-flex;
+          align-items: center;
+          opacity: 0.6;
+          color: $white-1;
+          text-decoration: none;
+          font-size: $font-size-default;
+          font-weight: $font-weight-medium;
+          gap: 6px;
+          letter-spacing: 0.2px;
+          line-height: 16px;
+          transition: color 0.3s ease-in-out;
+        }
+        svg {
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+}

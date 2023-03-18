@@ -1,6 +1,11 @@
 # Practicle Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Demo
+
+
+https://user-images.githubusercontent.com/43129749/226136294-be6c4a26-174c-4ed0-8d41-2c39bfee1670.mp4
+
+
 
 ## Available Scripts
 

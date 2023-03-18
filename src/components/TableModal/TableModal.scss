@@ -27,6 +27,8 @@
     width: 100%;
     height: 56px;
     border: 1px solid #eaecf0;
+    padding-left: 16px;
+    font-size: 16px;
   }
 
   &-lr {
@@ -36,7 +38,7 @@
 
   &-drawer {
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     // padding: 0px 20px;
     &_left {
       border-right: 1px solid #eaecf0;
@@ -94,7 +96,48 @@
       }
     }
 
-    // &_right {
-    // }
+    &_right {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      div p {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+        color: #667085;
+        padding-left: 16px;
+        padding-top: 16px;
+      }
+
+      div svg {
+        width: 14px;
+        height: 14px;
+        padding-right: 16px;
+        padding-top: 16px;
+      }
+
+      &__element {
+        gap: 8px;
+        display: flex;
+        align-content: baseline;
+        padding: 20px 0;
+
+        p {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 13px;
+          line-height: 16px;
+          color: #111111;
+          // padding-left: 16px;
+        }
+
+        svg {
+          width: 16px;
+          height: 16px;
+          padding-left: 16px;
+        }
+      }
+    }
   }
 }

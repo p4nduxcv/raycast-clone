@@ -1,4 +1,4 @@
-# Eyepax Practicle Test
+# Practicle Test
 
 ## Available Scripts
 

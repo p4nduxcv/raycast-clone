@@ -1,6 +1,6 @@
 import "../BodyContent/BodyContent.scss";
 
-const BodyContent = () => {
+const BodyContent = ({ onToggle }) => {
   return (
     <div className="body-fixed">
       <img src="assets/hero-raycast-frame.webp" />
@@ -330,7 +330,7 @@ const BodyContent = () => {
         Raycast is a blazingly fast, totally extendable launcher. It lets you
         complete tasks, calculate, share common links, and much more.
       </p>
-      <button>Download for Mac</button>
+      <button onClick={onToggle}>Download for Mac</button>
 
       <div className="body-info_tags">
         <span>v1.48.9 </span>
